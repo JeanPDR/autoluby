@@ -47,11 +47,11 @@ const AppRoutes = () => {
         
         <Routes>
         
-        <Route path = '/' exact element = 
+        <Route path = 'https://autoluby.dev.luby.com.br/login' exact element = 
         {<LoginPage/>}>
         </Route>
         
-        <Route path = '/home' exact element =
+        <Route path = 'https://autoluby.dev.luby.com.br/home' exact element =
          {<Private>
             <Home>
                
@@ -65,20 +65,20 @@ const AppRoutes = () => {
         }/> 
         
 
-        <Route path = '/employees' exact  element = 
+        <Route path = 'https://autoluby.dev.luby.com.br/employees' exact  element = 
         {<Private>
          
           <Employees/>
           
         </Private>}/>
 
-        <Route path = '/vehicles' exact element = 
+        <Route path = 'https://autoluby.dev.luby.com.br/vehicles' exact element = 
         {<Private>
           
           <Vehicles/>
           
         </Private>} />
-        <Route path = '/allvehicles' exact element =
+        <Route path = 'https://autoluby.dev.luby.com.br/allvehicles' exact element =
         {<Private>
           
           <AllVehicles/>
