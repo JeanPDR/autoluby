@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,800;1,900&family=Poppins:wght@600&family=Roboto:wght@300&display=swap');
+:root {
+    --primary: #F54A48;
+    --secondary: #FA982F;
+    --black: #3C3C3C;
+    --success: #34C38F;
+    --silver: #A2A2A2;
+    --gray: #7C7C7C;
+    --white: #FFFFFF;
+    
+}
+
+body{
+    padding: 20%;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2px;
+    
+    
+
+}
+.logo-login img {
+    position: absolute;
+    width: 45px;
+    height: 40.19px;
+    left: 230px;
+    top: 50px;
+}
+
+.p-Autoluby {
+    position: absolute;
+    top: 40px;
+    color: #F54A48;
+    font-weight: 600;
+    left: 16%;
+    font-size: 38px;
+    letter-spacing:-3;
+}
+.title{
+     
+     white-space: nowrap;
+     padding-left: 230px;
+     margin-top: 50;
+
+}
+.car {
+    position: fixed;
+    width: 917px;
+    left: 1002.9px;
+    top: 0px;
+}
+
+.login-form-title{
+    font-weight: 600;
+    color: var(--black);
+    font-size: 37px;
+    letter-spacing:-3;
+    margin-top: 158px;
+}
+.login-form-subtitle{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--silver);
+    
+}
+.email { 
+    margin-top: 45px;
+     
+}
+
+.password {
+    margin-top: 15px;
+}
+.wrap-input input {
+    width: 425px;
+    height: 36px;
+    background: #F9F9F9;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 5px;
+    
+}
+.wrap-input input::placeholder{
+    font-size: 12px;
+    color: var(--silver);
+    padding: 5px;
+}
+
+.wrap-input p {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--gray);
+    margin-top: 5px;
+  
+}
+.div-remember{
+    margin-top: 25px;
+}
+
+.btn-remender-password input{
+    all: unset;
+    border: 1px solid var(--gray);
+    display: inline-flex;
+    border-radius: 3px;
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+
+   
+}
+
+input:checked{
+    background-image: url(../../assets/icons/check.png);
+    background-color: var(--primary);
+    color: white;
+}
+
+.checkbox{
+    display: block;
+    position: absolute;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.remember{
+    color: var(--primary);
+    width: 150px;
+    height: 17px;
+    left: 10px;
+    padding-left: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    letter-spacing: -0.03em;
+    display: inline;
+
+}
+
+.forgot{
+    color: var(--primary);
+    width: 150px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 115px;
+    cursor: pointer;
+
+}
+
+.login-btn{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    padding: 10px;
+    width: 425px;
+    height: 37px;
+    border: 1px transparent;
+    border-radius: 3px;
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--primary);
+    cursor: pointer;
+    
+}
+.dont-have-account{
+    margin-top: 50px;
+}
+
+.span-dont-have-account{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+}
+.create-account{
+    
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 3px;
+    cursor: pointer;
+}
