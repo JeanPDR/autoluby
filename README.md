@@ -4,7 +4,7 @@
 
 ## Projeto AutoLuby Frontend
 
-O Projeto consite em criar um site de venda de automóveis contendor a seguinte paginas:
+O Projeto consiste em criar um site de venda de automóveis contendo as seguintes paginas:
 
 `Pagina de Login`
 `Pagina Home`
@@ -12,16 +12,18 @@ O Projeto consite em criar um site de venda de automóveis contendor a seguinte 
 `Pagina Todos os Veiculos`
 `Pagina de Funcionarios`
 
+ #### Utilizando React-Router DOM
 ## Requisitos Funcionais Realizados: 
 
- RF01 - Autenticação
- 
- RF02 - Listagem de funcionários 
-
- RF03 - Listagem de veículos
-
- RF04 - Listar os veículos reservados e vendidos do usuário autenticado.
-
+ <p>RF01 - Autenticação<p/>
+ #### Utilizando Context API
+ <p>RF02 - Listagem de funcionários</p>
+#### Utilizando Table do HTML
+ <p>RF03 - Listagem de veículos</p>
+#### Utilizando Table do HTML</p>
+ <p>RF04 - Listar os veículos reservados e vendidos do usuário autenticado.</p>
+#### Utilizando Table do HTML
+  <p></p>
 ### Observações:
 
 às demais requisições como: 
